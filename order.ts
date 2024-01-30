@@ -69,7 +69,7 @@ export const cancelAll = (market: string) => {
             if (error) {
                 console.log("error while cancelling orders");
             } else {
-                console.log("acnceleled all orders");
+                console.log("canceleled all orders");
                 console.log(body);
             }
             resolve();
